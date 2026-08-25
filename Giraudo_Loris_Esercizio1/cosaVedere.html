@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avventura nella città dei samurai (kyoto)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html">SAMURAI A KYOTO</a>
+            <ul>
+                <li>
+                    <a href="cosaVedere.html">Cosa vedere</a>
+                </li>
+                <li>
+                    <a href="itinerario.html">Iterario</a>
+                </li>
+                <li>
+                    <a href="contatti.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2>Cosa Vedere: Le 4 tappe inevitabili</h2>
+        <p>Selezionare cosa visitare a Kyoto richiede pragmatismo. Abbiamo isolato quattro luoghi fondamentali per
+            comprendere l'epoca dei samurai, eliminando il superfluo e lasciando spazio solo alla storia reale. Sfilate
+            le schede per analizzare ciascuna tappa.</p>
+
+
+        <div class="card-stack-container">
+
+            <div class="card active" data-index="1">
+                <div class="card-image">
+                    <img src="./immagini/castello-nijo-1.jpg" alt="Castello di Nijo">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">01 / Architettura Militare</div>
+                    <h3>Castello di Nijo (Nijō-jō)</h3>
+                    <p>Il monumento simbolo dove il potere dello Shogun è iniziato ed è finito. Famoso per i suoi
+                        "pavimenti dell'usignolo", un ingegnoso sistema d'allarme anti-ninja che cigola a ogni passo.
+                        Un'ottima dimostrazione di come la paranoia feudale potesse trasformarsi in alta ingegneria.</p>
+                </div>
+            </div>
+
+            <div class="card" data-index="2">
+                <div class="card-image">
+                    <img src="./immagini/images.jpg" alt="Casa Yagi">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">02 / Luogo Storico</div>
+                    <h3>Casa Yagi e Tempio Mibu-dera</h3>
+                    <p>Il primo quartier generale degli Shinsengumi, la spietata milizia speciale dell'Ottocento.
+                        Dimenticate le ricostruzioni moderne: sulle travi in legno del soffitto sono tuttora
+                        visibili i solchi lasciati dalle katane durante le faide interne del gruppo.</p>
+                </div>
+            </div>
+
+            <div class="card" data-index="3">
+                <div class="card-image">
+                    <img src="./immagini/samurai-museum-kyoto.jpg" alt="Kyoto Samurai Museum">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">03 / Esposizione Interattiva</div>
+                    <h3>Kyoto Samurai & Ninja Museum</h3>
+                    <p>Struttura dedicata alla cultura materiale dei guerrieri. Oltre alla collezione di armature e armi
+                        originali del periodo Edo, permette di comprendere da vicino il peso e la complessità degli
+                        equipaggiamenti militari dell'epoca.</p>
+                </div>
+            </div>
+
+            <div class="card" data-index="4">
+                <div class="card-image">
+                    <img src="./immagini/Kyoto_SpettacolotradizionaledidanzaconlaspadaSamuraiKenbu.jpg"
+                        alt="Samurai Kembu Theater">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">04 / Arte Performativa</div>
+                    <h3>Samurai Kembu Theater</h3>
+                    <p>Spettacolo incentrato sull'antica "danza della spada", usata dai guerrieri per affilare la
+                        concentrazione prima della battaglia. Un'esibizione che sintetizza perfettamente il dualismo tra
+                        rigore marziale e senso estetico.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-controls">
+            <button id="nextCardBtn" class="btn-next">Passa alla scheda successiva ⚔️</button>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Avventura nella città dei samurai (kyoto)</p>
+        <p>©Tutti i diritti riservati</p>
+        <a href="contatti.html">Contatti</a>
+    </footer>
+</body>
+
+</html>
