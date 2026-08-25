@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+}
+
+label{
+    margin: 30px;
+}
+
+#nome{
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#bottone{
+    margin: 30px;
+}
+
